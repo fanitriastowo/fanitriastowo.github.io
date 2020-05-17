@@ -26,7 +26,7 @@
    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
 
-   <title>Home</title>
+   <title>Artikel</title>
 
    <!-- Bootstrap core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,6 +42,7 @@
 </head>
 
 <body>
+
 
 <!-- Navigation -->
 <!-- navbar -->
@@ -62,22 +63,102 @@
 
         <!-- articles -->
         <article class="col-9">
-			<h3>Latest Articles</h3>
+			<h3>Arsip Artikel</h3>
+			<div class="accordion" id="accordion_archive">
 
-                <a href="article.html"><h3 class="mt-5">Judul</h3></a>
-                <p class="text-muted">
-                  by fanitriastowo -
-                  Posted on : 10 Oktober 2010. -
-                  Kategori : <a href="kategori.html">Thoughts</a>
-                </p>
-                <hr>
+			  <div class="card">
+			    <div class="card-header" id="heading2018">
+			      <h5 class="mb-0">
+			        <button class="btn btn-link" type="button" data-toggle="collapse"
+				        data-target="#collapse2018" aria-expanded="true" aria-controls="collapse2018">
+			          2018
+			        </button>
+			      </h5>
+			    </div>
+			    <div id="collapse2018" class="collapse show" aria-labelledby="heading2018"
+			    	data-parent="#accordion_archive">
+			      <div class="card-body">
+			        <ul>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
 
-                <div class="text-center img-source">
-                    <img src="img.png" alt="image" class="img-thumbnail">
-                    <br>
-                </div>
+			  <div class="card">
+			    <div class="card-header" id="heading2017">
+			      <h5 class="mb-0">
+			        <button class="btn btn-link" type="button" data-toggle="collapse"
+				        data-target="#collapse2017" aria-expanded="true" aria-controls="collapse2017">
+			          2017
+			        </button>
+			      </h5>
+			    </div>
+			    <div id="collapse2017" class="collapse" aria-labelledby="heading2017"
+			    	data-parent="#accordion_archive">
+			      <div class="card-body">
+			        <ul>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
 
-                <p class="text-justify">Lorem Ipsum</p>
+			  <div class="card">
+			    <div class="card-header" id="heading2016">
+			      <h5 class="mb-0">
+			        <button class="btn btn-link" type="button" data-toggle="collapse"
+				        data-target="#collapse2016" aria-expanded="true" aria-controls="collapse2016">
+			          2016
+			        </button>
+			      </h5>
+			    </div>
+			    <div id="collapse2016" class="collapse" aria-labelledby="heading2016"
+			    	data-parent="#accordion_archive">
+			      <div class="card-body">
+			        <ul>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="card">
+			    <div class="card-header" id="heading2015">
+			      <h5 class="mb-0">
+			        <button class="btn btn-link" type="button" data-toggle="collapse"
+				        data-target="#collapse2015" aria-expanded="true" aria-controls="collapse2015">
+			          2015
+			        </button>
+			      </h5>
+			    </div>
+			    <div id="collapse2015" class="collapse" aria-labelledby="heading2015"
+			    	data-parent="#accordion_archive">
+			      <div class="card-body">
+			        <ul>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+
+			</div>
 
         </article>
 
